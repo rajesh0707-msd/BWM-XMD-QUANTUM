@@ -7,7 +7,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const adams = require("./config");
-
 async function fetchINDEXUrl() {
   try {
     const response = await axios.get(adams.BWM_XMD);
